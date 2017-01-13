@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C8C3B331E28648600F1FB34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8C3B321E28648600F1FB34 /* AppDelegate.swift */; };
+		7C8C3B351E28648600F1FB34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8C3B341E28648600F1FB34 /* ViewController.swift */; };
+		7C8C3B381E28648600F1FB34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C8C3B361E28648600F1FB34 /* Main.storyboard */; };
+		7C8C3B3A1E28648600F1FB34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C8C3B391E28648600F1FB34 /* Assets.xcassets */; };
+		7C8C3B3D1E28648600F1FB34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C8C3B3B1E28648600F1FB34 /* LaunchScreen.storyboard */; };
+		7C8C3B481E28648700F1FB34 /* LycheeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8C3B471E28648700F1FB34 /* LycheeeTests.swift */; };
+		7C8C3B531E28648700F1FB34 /* LycheeeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8C3B521E28648700F1FB34 /* LycheeeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7C8C3B441E28648700F1FB34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7C8C3B271E28648600F1FB34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C8C3B2E1E28648600F1FB34;
+			remoteInfo = Lycheee;
+		};
+		7C8C3B4F1E28648700F1FB34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7C8C3B271E28648600F1FB34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C8C3B2E1E28648600F1FB34;
+			remoteInfo = Lycheee;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7C8C3B2F1E28648600F1FB34 /* Lycheee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lycheee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C8C3B321E28648600F1FB34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7C8C3B341E28648600F1FB34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7C8C3B371E28648600F1FB34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7C8C3B391E28648600F1FB34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7C8C3B3C1E28648600F1FB34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7C8C3B3E1E28648600F1FB34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C8C3B431E28648700F1FB34 /* LycheeeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LycheeeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C8C3B471E28648700F1FB34 /* LycheeeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LycheeeTests.swift; sourceTree = "<group>"; };
+		7C8C3B491E28648700F1FB34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C8C3B4E1E28648700F1FB34 /* LycheeeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LycheeeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C8C3B521E28648700F1FB34 /* LycheeeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LycheeeUITests.swift; sourceTree = "<group>"; };
+		7C8C3B541E28648700F1FB34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7C8C3B2C1E28648600F1FB34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C8C3B401E28648700F1FB34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C8C3B4B1E28648700F1FB34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7C8C3B261E28648600F1FB34 = {
+			isa = PBXGroup;
+			children = (
+				7C8C3B311E28648600F1FB34 /* Lycheee */,
+				7C8C3B461E28648700F1FB34 /* LycheeeTests */,
+				7C8C3B511E28648700F1FB34 /* LycheeeUITests */,
+				7C8C3B301E28648600F1FB34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7C8C3B301E28648600F1FB34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7C8C3B2F1E28648600F1FB34 /* Lycheee.app */,
+				7C8C3B431E28648700F1FB34 /* LycheeeTests.xctest */,
+				7C8C3B4E1E28648700F1FB34 /* LycheeeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7C8C3B311E28648600F1FB34 /* Lycheee */ = {
+			isa = PBXGroup;
+			children = (
+				7C8C3B321E28648600F1FB34 /* AppDelegate.swift */,
+				7C8C3B341E28648600F1FB34 /* ViewController.swift */,
+				7C8C3B361E28648600F1FB34 /* Main.storyboard */,
+				7C8C3B391E28648600F1FB34 /* Assets.xcassets */,
+				7C8C3B3B1E28648600F1FB34 /* LaunchScreen.storyboard */,
+				7C8C3B3E1E28648600F1FB34 /* Info.plist */,
+			);
+			path = Lycheee;
+			sourceTree = "<group>";
+		};
+		7C8C3B461E28648700F1FB34 /* LycheeeTests */ = {
+			isa = PBXGroup;
+			children = (
+				7C8C3B471E28648700F1FB34 /* LycheeeTests.swift */,
+				7C8C3B491E28648700F1FB34 /* Info.plist */,
+			);
+			path = LycheeeTests;
+			sourceTree = "<group>";
+		};
+		7C8C3B511E28648700F1FB34 /* LycheeeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7C8C3B521E28648700F1FB34 /* LycheeeUITests.swift */,
+				7C8C3B541E28648700F1FB34 /* Info.plist */,
+			);
+			path = LycheeeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7C8C3B2E1E28648600F1FB34 /* Lycheee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C8C3B571E28648700F1FB34 /* Build configuration list for PBXNativeTarget "Lycheee" */;
+			buildPhases = (
+				7C8C3B2B1E28648600F1FB34 /* Sources */,
+				7C8C3B2C1E28648600F1FB34 /* Frameworks */,
+				7C8C3B2D1E28648600F1FB34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lycheee;
+			productName = Lycheee;
+			productReference = 7C8C3B2F1E28648600F1FB34 /* Lycheee.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7C8C3B421E28648700F1FB34 /* LycheeeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C8C3B5A1E28648700F1FB34 /* Build configuration list for PBXNativeTarget "LycheeeTests" */;
+			buildPhases = (
+				7C8C3B3F1E28648700F1FB34 /* Sources */,
+				7C8C3B401E28648700F1FB34 /* Frameworks */,
+				7C8C3B411E28648700F1FB34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7C8C3B451E28648700F1FB34 /* PBXTargetDependency */,
+			);
+			name = LycheeeTests;
+			productName = LycheeeTests;
+			productReference = 7C8C3B431E28648700F1FB34 /* LycheeeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7C8C3B4D1E28648700F1FB34 /* LycheeeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C8C3B5D1E28648700F1FB34 /* Build configuration list for PBXNativeTarget "LycheeeUITests" */;
+			buildPhases = (
+				7C8C3B4A1E28648700F1FB34 /* Sources */,
+				7C8C3B4B1E28648700F1FB34 /* Frameworks */,
+				7C8C3B4C1E28648700F1FB34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7C8C3B501E28648700F1FB34 /* PBXTargetDependency */,
+			);
+			name = LycheeeUITests;
+			productName = LycheeeUITests;
+			productReference = 7C8C3B4E1E28648700F1FB34 /* LycheeeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7C8C3B271E28648600F1FB34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Frida Sjoholm";
+				TargetAttributes = {
+					7C8C3B2E1E28648600F1FB34 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					7C8C3B421E28648700F1FB34 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7C8C3B2E1E28648600F1FB34;
+					};
+					7C8C3B4D1E28648700F1FB34 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7C8C3B2E1E28648600F1FB34;
+					};
+				};
+			};
+			buildConfigurationList = 7C8C3B2A1E28648600F1FB34 /* Build configuration list for PBXProject "Lycheee" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7C8C3B261E28648600F1FB34;
+			productRefGroup = 7C8C3B301E28648600F1FB34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7C8C3B2E1E28648600F1FB34 /* Lycheee */,
+				7C8C3B421E28648700F1FB34 /* LycheeeTests */,
+				7C8C3B4D1E28648700F1FB34 /* LycheeeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7C8C3B2D1E28648600F1FB34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C8C3B3D1E28648600F1FB34 /* LaunchScreen.storyboard in Resources */,
+				7C8C3B3A1E28648600F1FB34 /* Assets.xcassets in Resources */,
+				7C8C3B381E28648600F1FB34 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C8C3B411E28648700F1FB34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C8C3B4C1E28648700F1FB34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7C8C3B2B1E28648600F1FB34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C8C3B351E28648600F1FB34 /* ViewController.swift in Sources */,
+				7C8C3B331E28648600F1FB34 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C8C3B3F1E28648700F1FB34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C8C3B481E28648700F1FB34 /* LycheeeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C8C3B4A1E28648700F1FB34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C8C3B531E28648700F1FB34 /* LycheeeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7C8C3B451E28648700F1FB34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7C8C3B2E1E28648600F1FB34 /* Lycheee */;
+			targetProxy = 7C8C3B441E28648700F1FB34 /* PBXContainerItemProxy */;
+		};
+		7C8C3B501E28648700F1FB34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7C8C3B2E1E28648600F1FB34 /* Lycheee */;
+			targetProxy = 7C8C3B4F1E28648700F1FB34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7C8C3B361E28648600F1FB34 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C8C3B371E28648600F1FB34 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7C8C3B3B1E28648600F1FB34 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C8C3B3C1E28648600F1FB34 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7C8C3B551E28648700F1FB34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7C8C3B561E28648700F1FB34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7C8C3B581E28648700F1FB34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Lycheee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FS.Lycheee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7C8C3B591E28648700F1FB34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Lycheee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FS.Lycheee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		7C8C3B5B1E28648700F1FB34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LycheeeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FS.LycheeeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lycheee.app/Lycheee";
+			};
+			name = Debug;
+		};
+		7C8C3B5C1E28648700F1FB34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LycheeeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FS.LycheeeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lycheee.app/Lycheee";
+			};
+			name = Release;
+		};
+		7C8C3B5E1E28648700F1FB34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = LycheeeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FS.LycheeeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Lycheee;
+			};
+			name = Debug;
+		};
+		7C8C3B5F1E28648700F1FB34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = LycheeeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FS.LycheeeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Lycheee;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7C8C3B2A1E28648600F1FB34 /* Build configuration list for PBXProject "Lycheee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C8C3B551E28648700F1FB34 /* Debug */,
+				7C8C3B561E28648700F1FB34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C8C3B571E28648700F1FB34 /* Build configuration list for PBXNativeTarget "Lycheee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C8C3B581E28648700F1FB34 /* Debug */,
+				7C8C3B591E28648700F1FB34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7C8C3B5A1E28648700F1FB34 /* Build configuration list for PBXNativeTarget "LycheeeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C8C3B5B1E28648700F1FB34 /* Debug */,
+				7C8C3B5C1E28648700F1FB34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7C8C3B5D1E28648700F1FB34 /* Build configuration list for PBXNativeTarget "LycheeeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C8C3B5E1E28648700F1FB34 /* Debug */,
+				7C8C3B5F1E28648700F1FB34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7C8C3B271E28648600F1FB34 /* Project object */;
+}
