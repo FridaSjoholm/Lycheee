@@ -39,7 +39,7 @@
     <dict>
         <key>NSExceptionDomains</key>
         <dict>
-            <key>https://salty-headland-39270.herokuapp.com/pets/2/toys</key>
+            <key>https://salty-headland-39270.herokuapp.com</key>
             <dict>
                 <key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
                 <true/>

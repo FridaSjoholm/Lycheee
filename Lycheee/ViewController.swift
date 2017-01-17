@@ -8,6 +8,10 @@
 
 import UIKit
 
+func CGRectMake(_ x: CGFloat, _ y: CGFloat, _ width: CGFloat, _ height: CGFloat) -> CGRect {
+    return CGRect(x: x, y: y, width: width, height: height)
+}
+
 func makeRequest(request: URLRequest, completion: @escaping ([String])->Void) {
     var desc:[String] = []
     let task = URLSession.shared.dataTask(with: request) {data, response, error in
@@ -31,21 +35,23 @@ func makeRequest(request: URLRequest, completion: @escaping ([String])->Void) {
                     }
                 }
             }
-            
-        } catch {
-            print("error serializing JSON: \(error)")
         }
         completion(desc)
     }
     task.resume()
 }
 class ViewController: UIViewController {
-    
+
     @IBOutlet weak var txtInput: UITextField!
     @IBOutlet weak var txtOutput: UITextView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let image: UIImage = UIImage(named: "LClogo")!
+        let imageView = UIImageView(image: image)
+        self.view.addSubview(imageView)
+        imageView.frame = CGRectMake(0,0,self.view.frame.width,self.view.frame.height * 0.23)
+
     }
     @IBAction func findToy(_ sender: Any)  {
         if(txtInput.text == ""){
