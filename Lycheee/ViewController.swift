@@ -13,8 +13,10 @@ func CGRectMake(_ x: CGFloat, _ y: CGFloat, _ width: CGFloat, _ height: CGFloat)
 }
 
 func makeRequest(request: URLRequest, completion: @escaping ([String])->Void) {
-    var desc:[String] = []
-    let task = URLSession.shared.dataTask(with: request) {data, response, error in
+    var req = request
+    req.addValue("application/json", forHTTPHeaderField: "Accept")
+    var info:[String] = []
+    let task = URLSession.shared.dataTask(with: req) {data, response, error in
         guard let data = data, error == nil else{
             print("error=\(error)")
             return
@@ -29,14 +31,16 @@ func makeRequest(request: URLRequest, completion: @escaping ([String])->Void) {
             if let array = json as? [Any] {
                 for object in array {
                     if let dictionary = object as? [String: Any] {
-                        if let description = dictionary["description"] as? String {
-                            desc.append(description)
+                        if let title_obj = dictionary["title"] as? String {
+                            if let artist_obj = dictionary["artist_name"] as? String {
+                                info.append("\(artist_obj) - \(title_obj)")
+                            }
                         }
                     }
                 }
             }
         }
-        completion(desc)
+        completion(info)
     }
     task.resume()
 }
@@ -58,13 +62,16 @@ class ViewController: UIViewController {
             return
         }
         txtOutput.text = ""
+        let word = txtInput.text
+        let url = "http://127.0.0.1:3000/search?word="
+        let total = url + word!
         txtInput.text = ""
         txtInput.resignFirstResponder()
-        
-        makeRequest(request: URLRequest(url: URL(string: "https://salty-headland-39270.herokuapp.com/pets/2/toys.json")!)) {response in
+ 
+        makeRequest(request: URLRequest(url: URL(string: total)!)) {response in
             for resp in response {
                 DispatchQueue.main.async {
-                    self.txtOutput.text.append("*  \(resp)\n")
+                    self.txtOutput.text.append("\(resp)\n")
                 }
             }
         }
