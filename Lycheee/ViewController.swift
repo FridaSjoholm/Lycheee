@@ -12,7 +12,7 @@ func CGRectMake(_ x: CGFloat, _ y: CGFloat, _ width: CGFloat, _ height: CGFloat)
     return CGRect(x: x, y: y, width: width, height: height)
 }
 
-func makeRequest(request: URLRequest, completion: @escaping ([String])->Void) {
+func makeRequest(param: String, request: URLRequest, completion: @escaping ([String])->Void) {
     var req = request
     req.addValue("application/json", forHTTPHeaderField: "Accept")
     var info:[String] = []
@@ -68,7 +68,7 @@ class ViewController: UIViewController {
         txtInput.text = ""
         txtInput.resignFirstResponder()
  
-        makeRequest(request: URLRequest(url: URL(string: total)!)) {response in
+        makeRequest(param: word!, request: URLRequest(url: URL(string: total)!)) {response in
             for resp in response {
                 DispatchQueue.main.async {
                     self.txtOutput.text.append("\(resp)\n")
