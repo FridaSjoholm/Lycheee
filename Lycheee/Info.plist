@@ -39,7 +39,7 @@
     <dict>
         <key>NSExceptionDomains</key>
         <dict>
-            <key>https://salty-headland-39270.herokuapp.com</key>
+            <key>http://127.0.0.1:3000</key>
             <dict>
                 <key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
                 <true/>
