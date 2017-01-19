@@ -72,10 +72,11 @@ class ViewController: UIViewController {
             return
         }
         let word = txtInput.text
-        let wordstring =  "Showing songs about: " + word!
+        let wordstring =  "Showing songs about " + word!
         wordView.text = wordstring
+        let uword =  word?.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed)
         let url = "https://lyricallychallenged.herokuapp.com/search?word="
-        let total = url + word!
+        let total = url + uword!
         txtInput.text = ""
         txtInput.resignFirstResponder()
         var youtubeurl = "https://www.youtube.com/embed/"
