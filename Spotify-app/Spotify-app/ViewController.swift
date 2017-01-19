@@ -54,7 +54,7 @@ class ViewController: UIViewController {
         let image: UIImage = UIImage(named: "LClogo")!
         let imageView = UIImageView(image: image)
         self.view.addSubview(imageView)
-        imageView.frame = CGRectMake(0,0,self.view.frame.width,self.view.frame.height * 0.23)
+        imageView.frame = CGRectMake(0, self.view.frame.height * 0.1 ,self.view.frame.width,self.view.frame.height * 0.23)
 
     }
     @IBAction func findToy(_ sender: Any)  {
