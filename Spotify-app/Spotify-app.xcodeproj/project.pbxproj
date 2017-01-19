@@ -19,9 +19,9 @@
 		7C3A77001E2EC2BA00333C6E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C3A76FF1E2EC2BA00333C6E /* AVFoundation.framework */; };
 		7C3A77021E2EC2C400333C6E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C3A77011E2EC2C400333C6E /* SystemConfiguration.framework */; };
 		7C6B87551E2F066200852F72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6B87541E2F066200852F72 /* ViewController.swift */; };
-		7C6B87571E2F079400852F72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C6B87561E2F079400852F72 /* Main.storyboard */; };
 		7C6B87591E2F31E900852F72 /* LClogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C6B87581E2F31E900852F72 /* LClogo.png */; };
 		7C6B875B1E304C9F00852F72 /* SpotifyMetadata.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C6B875A1E304C9F00852F72 /* SpotifyMetadata.framework */; };
+		7C6B87641E3088B100852F72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C6B87631E3088B100852F72 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,9 +63,9 @@
 		7C3A77011E2EC2C400333C6E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		7C6B87531E2F066100852F72 /* Spotify-app-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Spotify-app-Bridging-Header.h"; sourceTree = "<group>"; };
 		7C6B87541E2F066200852F72 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7C6B87561E2F079400852F72 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		7C6B87581E2F31E900852F72 /* LClogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LClogo.png; sourceTree = "<group>"; };
 		7C6B875A1E304C9F00852F72 /* SpotifyMetadata.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyMetadata.framework; sourceTree = "<group>"; };
+		7C6B87631E3088B100852F72 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,13 +122,13 @@
 		7C3A76C61E2EB5CD00333C6E /* Spotify-app */ = {
 			isa = PBXGroup;
 			children = (
+				7C6B87631E3088B100852F72 /* Main.storyboard */,
 				7C6B87581E2F31E900852F72 /* LClogo.png */,
 				7C6B87541E2F066200852F72 /* ViewController.swift */,
 				7C3A76CA1E2EB5CD00333C6E /* AppDelegate.h */,
 				7C3A76CB1E2EB5CD00333C6E /* AppDelegate.m */,
 				7C3A76CD1E2EB5CD00333C6E /* ViewController.h */,
 				7C3A76CE1E2EB5CD00333C6E /* ViewController.m */,
-				7C6B87561E2F079400852F72 /* Main.storyboard */,
 				7C3A76D31E2EB5CD00333C6E /* Assets.xcassets */,
 				7C3A76D51E2EB5CD00333C6E /* LaunchScreen.storyboard */,
 				7C3A76D81E2EB5CD00333C6E /* Info.plist */,
@@ -238,6 +238,10 @@
 		7C3A76BC1E2EB5CD00333C6E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					txt,
+					txtOutput,
+				);
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Frida Sjoholm";
 				TargetAttributes = {
@@ -289,7 +293,7 @@
 				7C3A76D71E2EB5CD00333C6E /* LaunchScreen.storyboard in Resources */,
 				7C6B87591E2F31E900852F72 /* LClogo.png in Resources */,
 				7C3A76D41E2EB5CD00333C6E /* Assets.xcassets in Resources */,
-				7C6B87571E2F079400852F72 /* Main.storyboard in Resources */,
+				7C6B87641E3088B100852F72 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

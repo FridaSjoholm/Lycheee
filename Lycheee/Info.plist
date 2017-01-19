@@ -39,8 +39,22 @@
     <dict>
         <key>NSExceptionDomains</key>
         <dict>
-            <key>http://127.0.0.1:3000</key>
+            <key>https://lyricallychallenged.herokuapp.com/</key>
             <dict>
+                <key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
+                <true/>
+            </dict>
+        </dict>
+    </dict>
+    
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSExceptionDomains</key>
+        <dict>
+            <key>youtube.com</key>
+            <dict>
+                <key>NSIncludesSubdomains</key>
+                <true/>
                 <key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
                 <true/>
             </dict>
